@@ -1,0 +1,37 @@
+ {
+    "description": "prostate 3d MRI",
+    "labels": {
+        "0": "background",
+        "1": "pca"
+    },
+    "licence": "yt",
+    "modality": {
+        "0": "MRI"
+    },
+    "name": "prostate",
+    "numTest": 20,
+    "numTraining": 80,
+    "reference": "Vanderbilt University",
+    "release": "1.0 06/12/2024",
+    "tensorImageSize": "3D",
+    "training": [
+        {
+            "image": "imagesTr/0.nii.gz",
+            "label": "labelsTr/0.nii.gz"
+        },
+        {
+            "image": "imagesTr/1.nii.gz",
+            "label": "labelsTr/1.nii.gz"
+        },
+        {
+            "image": "imagesTr/2.nii.gz",
+            "label": "labelsTr/2.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "imagesTr/3.nii.gz",
+            "label": "labelsTr/3.nii.gz"
+        }
+    ]
+}
