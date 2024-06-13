@@ -1,10 +1,4 @@
-
-
-# DT-VNet
-
-
 # DT-VNet: Deep Transformer-based VNet Framework for 3D Prostate MRI Segmentation
-
 
 
 # Abstract:
@@ -13,7 +7,3 @@ Additionally, we introduce a Pool Fusion Attention (PFA) block for decoding, whi
 
 
 
-
-
-
-# DT-VNet
