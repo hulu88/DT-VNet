@@ -22,7 +22,7 @@ from trainer import run_training
 from utils.data_utils import get_loader
 from DT_VNet import DTVNet
 
-parser = argparse.ArgumentParser(description="Swin UNETR segmentation pipeline")
+parser = argparse.ArgumentParser(description="DT-VNet segmentation pipeline")
 parser.add_argument("--checkpoint", default=None, help="start training from saved checkpoint") 
 parser.add_argument("--logdir", default="test", type=str, help="directory to save the tensorboard logs") 
 parser.add_argument("--pretrained_dir", default="./pretrained_models/", type=str, help="pretrained checkpoint directory") 
